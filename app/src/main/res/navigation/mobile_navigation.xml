@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/scheduledTaskFragment">
+    app:startDestination="@id/taskFragment">
 
     <fragment
         android:id="@+id/scheduledTaskFragment"
@@ -24,4 +24,8 @@
         android:id="@+id/settingsFragment"
         android:name="tang.song.edu.drivego.ui.settings.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="tang.song.edu.drivego.ui.tasks.TaskFragment"
+        android:label="TaskFragment" />
 </navigation>
