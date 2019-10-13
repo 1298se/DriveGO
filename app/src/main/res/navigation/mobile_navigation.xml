@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/scheduledTaskFragment">
+
+    <fragment
+        android:id="@+id/scheduledTaskFragment"
+        android:name="tang.song.edu.drivego.ui.tasks.ScheduledTaskFragment"
+        android:label="scheduled_task_fragment"
+        tools:layout="@layout/scheduled_task_fragment" />
+    <fragment
+        android:id="@+id/completedTaskFragment"
+        android:name="tang.song.edu.drivego.ui.tasks.CompletedTaskFragment"
+        android:label="completed_task_fragment"
+        tools:layout="@layout/completed_task_fragment" />
+    <fragment
+        android:id="@+id/shiftScheduleFragment"
+        android:name="tang.song.edu.drivego.ui.shift.ShiftScheduleFragment"
+        android:label="shift_schedule_fragment"
+        tools:layout="@layout/shift_schedule_fragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="tang.song.edu.drivego.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>
